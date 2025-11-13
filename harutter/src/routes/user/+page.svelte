@@ -4,6 +4,7 @@
 
 <ul>
     {#each data.summaries as { slug, name, id}}
+        <br>
         <li><a href="/user/{slug}">{name}</a></li>
         <br>
     {/each}
